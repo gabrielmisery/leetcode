@@ -1,6 +1,6 @@
 public class Solution14 {
     public static void main(String[] args) {
-        String[] str = new String[]{"dog"};
+        String[] str = new String[]{"doggwe","doggs"};
         System.out.println(longestCommonPrefix(str));
     }
 
