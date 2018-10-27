@@ -5,12 +5,15 @@ import java.util.Map;
 
 public class Solution17 {
     public static void main(String[] args) {
-        String digits = "23";
+        String digits = "";
         System.out.println(letterCombinations(digits));
     }
 
     public static List<String> letterCombinations(String digits) {
+
         List<String> result = new ArrayList<>();
+        if(digits.isEmpty())
+            return result;
         Map<Integer, ArrayList<String>> map = new HashMap<>();
 
         map.put(2, creatDic("abc"));
@@ -27,13 +30,13 @@ public class Solution17 {
             list.add(map.get(Integer.parseInt(String.valueOf(digits.charAt(i)))));
         }
 
-        System.out.println(list);
+        String tempResult = "";
+        getLetters(list, result, 0, tempResult);
 
         for (int i = 0; i < list.size(); i++) {
-            result.add(list.get(0).get(i));
-            getLetters(list.get(0), result);
+
         }
-        return
+        return result;
     }
 
     public static ArrayList<String> creatDic(String letters) {
@@ -44,7 +47,13 @@ public class Solution17 {
         return list;
     }
 
-    public static void getLetters(List<String> list, List<String> result) {
-
+    public static void getLetters(List<List<String>> list, List<String> result, int count, String tempResult) {
+        for (int i = 0; i < list.get(count).size(); i++) {
+            if (count + 1 < list.size())
+                getLetters(list, result, count + 1, tempResult + list.get(count).get(i));
+            else {
+                result.add(tempResult + list.get(count).get(i));
+            }
+        }
     }
 }
