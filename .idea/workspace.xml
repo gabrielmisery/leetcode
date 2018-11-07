@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae138fc5-d14d-4958-8b32-f7dffd98fb2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution32.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="13202" />
+          <entry key="java" value="13203" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
@@ -55,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13202" />
+          <entry key="JAVA" value="13203" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -89,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution32.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="339">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,11 +203,6 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541604064674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541604663748" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -317,7 +313,7 @@
       <workItem from="1540521725609" duration="46390000" />
       <workItem from="1541309037086" duration="343000" />
       <workItem from="1541386258159" duration="4466000" />
-      <workItem from="1541603703359" duration="290000" />
+      <workItem from="1541603703359" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="第16题">
       <created>1540037510869</created>
@@ -344,13 +340,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79461000" />
+    <option name="totallyTimeSpent" value="79795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -679,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution32.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="339">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

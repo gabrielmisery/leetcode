@@ -21,9 +21,8 @@ public class Solution32 {
     public static int longestValidParentheses(String s) {
         List<Integer> tempResult = new ArrayList<>();
         tempResult.add(0);
-        int j = 0;
         for (int i = 2; i <= s.length(); i += 2) {
-            for (; j < s.length() - i + 1; j++) {
+            for (int j = 0; j < s.length() - i + 1; j++) {
                 String temp = s.substring(j, j + i);
                 if (isTrue(temp, tempResult) == i) {
                     j = s.length();
