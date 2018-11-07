@@ -22,7 +22,6 @@ public class Solution32 {
         List<Integer> tempResult = new ArrayList<>();
         tempResult.add(0);
         int j = 0;
-        int 
         for (int i = 2; i <= s.length(); i += 2) {
             for (; j < s.length() - i + 1; j++) {
                 String temp = s.substring(j, j + i);
