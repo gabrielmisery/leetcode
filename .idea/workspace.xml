@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae138fc5-d14d-4958-8b32-f7dffd98fb2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution32.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,7 +37,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="69" />
+          <entry key="java" value="70" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
@@ -44,7 +45,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="13668" />
+          <entry key="java" value="13987" />
           <entry key="md" value="15" />
           <entry key="txt" value="17" />
         </counts>
@@ -52,13 +53,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="69" />
+          <entry key="JAVA" value="70" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13668" />
+          <entry key="JAVA" value="13987" />
           <entry key="Markdown" value="15" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
@@ -69,14 +70,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Solution32.java">
+        <entry file="file://$PROJECT_DIR$/src/Solution33.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2124#2183#0" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -135,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Solution32.java" />
+        <option value="$PROJECT_DIR$/src/Solution33.java" />
       </list>
     </option>
   </component>
@@ -177,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542360196799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542361300276" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -201,14 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution32">
-    <configuration name="Solution29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution29" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution33">
     <configuration name="Solution30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution30" />
       <module name="LeetCode" />
@@ -230,6 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution33" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="LeetCode" />
@@ -238,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution29" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.Solution30" />
       <item itemvalue="Application.Solution31" />
       <item itemvalue="Application.Solution32" />
+      <item itemvalue="Application.Solution33" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution33" />
         <item itemvalue="Application.Solution32" />
         <item itemvalue="Application.Solution31" />
         <item itemvalue="Application.Solution30" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Solution29" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +281,7 @@
       <workItem from="1541309037086" duration="343000" />
       <workItem from="1541386258159" duration="4466000" />
       <workItem from="1541603703359" duration="713000" />
-      <workItem from="1541659645675" duration="4835000" />
+      <workItem from="1541659645675" duration="5866000" />
     </task>
     <task id="LOCAL-00001" summary="第16题">
       <created>1540037510869</created>
@@ -310,7 +308,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84719000" />
+    <option name="totallyTimeSpent" value="85750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -623,12 +621,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution32.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#2124#2183#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution33.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
