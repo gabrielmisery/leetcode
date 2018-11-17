@@ -2,7 +2,6 @@
  * 搜索旋转排序数组
  */
 public class Solution33 {
-
     public static void main(String[] args) {
         int[] nums = new int[]{1};
         System.out.println(search(nums, 1));
