@@ -18,7 +18,7 @@ public class Solution37 {
                 }
             }
         }
-        solveProblem(board, col, row, three, 0, 0);
+        solveProblem(board, col, row, three);
     }
 
     private void printBoard(char[][] board) {
@@ -31,7 +31,7 @@ public class Solution37 {
         System.out.println();
     }
 
-    private boolean solveProblem(char[][] board, boolean[][] col, boolean[][] row, boolean[][][] three, int x, int y) {
+    private boolean solveProblem(char[][] board, boolean[][] col, boolean[][] row, boolean[][][] three) {
         int i = 0, j = 0;
         boolean flag = true;
         for (int indexRow = 0; indexRow < 9; indexRow++) {
@@ -54,7 +54,7 @@ public class Solution37 {
                 col[j][k] = true;
                 row[i][k] = true;
                 three[i / 3][j / 3][k] = true;
-                if (solveProblem(board, col, row, three, i, j)) {
+                if (solveProblem(board, col, row, three)) {
                     return true;
                 } else {
                     board[i][j] = '.';
