@@ -3,35 +3,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- *组合总和 II
+ * 组合总和 II
  */
 public class Solution40 {
-
-    //    public List<Integer> sort(int[] candidates, int target) {
-//        List list = new ArrayList<Integer>();
-//        for (int i = 0; i < candidates.length; i++) {
-//            if (candidates[i] <= target) {
-//                list.add(candidates[i]);
-//            }
-//        }
-//        return list;
-//    }
-//
-//    public List<List<Integer>> combinationSum2(List<Integer> candidates, int target) {
-//        List result = new ArrayList<List<Integer>>();
-//        for (int i = 0; i < candidates.size(); i++) {
-//            for (int j = 0; j < candidates.size(); j++) {
-//                if (candidates.get(i) + candidates.get(j) == target && i != j) {
-//                    List list = new ArrayList<Integer>();
-//                    list.add(candidates.get(i), candidates.get(j));
-//                    result.add(list);
-//                }
-//            }
-//        }
-//        return result;
-//    }
-
-
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> tempResult = new ArrayList<>();
