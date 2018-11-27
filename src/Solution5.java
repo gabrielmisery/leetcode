@@ -1,7 +1,10 @@
+/**
+ *最长回文字串
+ */
 public class Solution5 {
 
     public static void main(String[] args) {
-        System.out.print(longestPalindrome("a"));
+        System.out.print(longestPalindrome("bababab"));
     }
 
     public static String longestPalindrome(String s) {

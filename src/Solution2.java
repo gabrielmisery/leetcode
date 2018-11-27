@@ -8,7 +8,6 @@ class ListNode {
 }
 public class Solution2 {
     public static void main(String[] args) {
-        // write your code here
         ListNode l1 = new ListNode(9);
         l1.next = new ListNode(8);
         ListNode l2 = new ListNode(1);
