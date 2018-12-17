@@ -1,11 +1,3 @@
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
 public class Solution2 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(9);

@@ -2,14 +2,6 @@
  * 旋转链表
  */
 public class Solution61 {
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     //1
 //    public ListNode rotateRight(ListNode head, int k) {

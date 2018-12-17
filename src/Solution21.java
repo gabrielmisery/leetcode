@@ -1,13 +1,5 @@
 public class Solution21 {
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);

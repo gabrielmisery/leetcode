@@ -2,15 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Solution872 {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public static void main(String[] args) {
         TreeNode root1 = new TreeNode(1);
