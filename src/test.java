@@ -1,6 +1,8 @@
 import Tree.Traversal;
 import Tree.TreeNode;
 
+import java.util.List;
+
 public class test {
     public static void main(String[] args) {
 //         队列实现栈
@@ -59,10 +61,16 @@ public class test {
 //        two.next = three;
 //        three.next = four;
 //        four.next = five;
+
 //        Solution92 solution92 = new Solution92();
 //        solution92.reverseBetween(one, 1, 5);
-        Solution91 solution91 = new Solution91();
-        System.out.print(solution91.numDecodings("29"));
 
+//        Solution91 solution91 = new Solution91();
+//        System.out.print(solution91.numDecodings("29"));
+
+        Solution90 solution90 = new Solution90();
+        int[] nums = new int[]{1,2,2};
+//        List<List<Integer>> res = solution90.subsetsWithDup(nums);
+        System.out.print(solution90.subsetsWithDup(nums));
     }
 }

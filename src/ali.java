@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+/**
+ * 阿里笔试
+ */
 public class ali {
     public static String calculate(int m, int k) {
         ArrayList<Integer> pig = new ArrayList<>();
