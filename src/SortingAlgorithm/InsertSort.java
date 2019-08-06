@@ -2,6 +2,8 @@ package SortingAlgorithm;
 
 /**
  * 插入排序
+ * 时间复杂度O(n^2)
+ * 不稳定
  */
 
 public class InsertSort {

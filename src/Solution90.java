@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * 子集II
+ * 子集II 回溯加剪枝
  */
 public class Solution90 {
     public List<List<Integer>> subsetsWithDup(int[] nums) {

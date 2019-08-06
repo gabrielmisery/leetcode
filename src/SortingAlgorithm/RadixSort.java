@@ -5,6 +5,8 @@ import java.util.Arrays;
 
 /**
  * 基数排序
+ * 时间复杂度 O(d(n+radix))
+ * 稳定
  */
 
 public class RadixSort {

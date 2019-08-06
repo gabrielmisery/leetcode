@@ -2,6 +2,8 @@ package SortingAlgorithm;
 
 /**
  * 选择排序
+ * 时间复杂度 O(n^2)
+ * 不稳定
  */
 public class SelectSort {
     public void sort(int[] nums) {

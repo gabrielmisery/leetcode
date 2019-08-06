@@ -1,18 +1,29 @@
+/**
+ * 旋转图像
+ */
 public class Solution48 {
     public void rotate(int[][] matrix) {
-        for (int i = 0; i < matrix.length / 2; i++) {
-            for (int j = i; j < matrix[i].length - i; j++) {
-                int temp = matrix[i][j];
-                if (j + matrix[i].length - i - 1 - i >= matrix[i].length - i - 1) {
-                    int row = j + matrix[i].length - i - 1 - i;
-                    int col = matrix[i].length - 1 - i;
-                    exchangeVal(matrix, row, col);
+        boolean[][] visited = new boolean[matrix.length][matrix.length];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (!visited[i][j]) {
+                    exchangeVal(matrix, i, j, visited);
                 }
             }
         }
+//        for (int i = 0; i < matrix.length / 2; i++) {
+//            for (int j = i; j < matrix[i].length - i; j++) {
+//                int temp = matrix[i][j];
+//                if (j + matrix[i].length - i - 1 - i >= matrix[i].length - i - 1) {
+//                    int row = j + matrix[i].length - i - 1 - i;
+//                    int col = matrix[i].length - 1 - i;
+//                    exchangeVal(matrix, row, col);
+//                }
+//            }
+//        }
     }
 
-    public void exchangeVal(int[][] matrix, int row, int col) {
+    public void exchangeVal(int[][] matrix, int row, int col, boolean[][] visited) {
 
     }
 

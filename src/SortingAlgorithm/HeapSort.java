@@ -3,6 +3,8 @@ package SortingAlgorithm;
 
 /**
  * 堆排序
+ * 时间复杂度 O(nlogN)
+ * 不稳定
  */
 public class HeapSort {
     public void makeMaxHeap(int[] nums, int index, int length) {

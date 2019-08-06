@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * 归并排序
+ * 时间复杂度O（n*logN）
+ * 稳定
  */
 public class MergeSort {
     public void sort(int[] nums, int head, int tail) {
